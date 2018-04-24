@@ -25,15 +25,15 @@ const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.b
  * @return {?WPBlock}          The block, if it has been successfully
  *                             registered; otherwise `undefined`.
  */
-registerBlockType( 'cgb/block-pillar-blocks', {
+registerBlockType( 'pillar-blocks/block', {
 	// Block name. Block names must be string that contains a namespace prefix. Example: my-plugin/my-custom-block.
-	title: __( 'pillar-blocks - CGB Block' ), // Block title.
+	title: __( 'Example Block' ), // Block title.
 	icon: 'shield', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
 	category: 'common', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
 	keywords: [
-		__( 'pillar-blocks — CGB Block' ),
-		__( 'CGB Example' ),
-		__( 'create-guten-block' ),
+		__( 'pillar' ),
+		__( 'pillar-blocks' ),
+		__( 'example' ),
 	],
 
 	/**
@@ -50,13 +50,13 @@ registerBlockType( 'cgb/block-pillar-blocks', {
 			<div className={ props.className }>
 				<p>— Hello from the backend.</p>
 				<p>
-					CGB BLOCK: <code>pillar-blocks</code> is a new Gutenberg block
+					Example Block in the new Pillar Blocks plugin.
 				</p>
 				<p>
 					It was created via{ ' ' }
 					<code>
-						<a href="https://github.com/ahmadawais/create-guten-block">
-							create-guten-block
+						<a href="https://github.com/robertdevore">
+							Robert DeVore
 						</a>
 					</code>.
 				</p>
@@ -77,13 +77,13 @@ registerBlockType( 'cgb/block-pillar-blocks', {
 			<div>
 				<p>— Hello from the frontend.</p>
 				<p>
-					CGB BLOCK: <code>pillar-blocks</code> is a new Gutenberg block.
+					Example block in the new Pillar Blocks plugin.
 				</p>
 				<p>
 					It was created via{ ' ' }
 					<code>
-						<a href="https://github.com/ahmadawais/create-guten-block">
-							create-guten-block
+						<a href="https://github.com/robertdevore">
+							Robert DeVore
 						</a>
 					</code>.
 				</p>
