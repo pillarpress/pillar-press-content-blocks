@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Pillar Blocks
- * Plugin URI: https://pillar.press/plugin
+ * Plugin Name: Pillar Press - Content Blocks
+ * Plugin URI: https://pillar.press/
  * Description: Custom Gutenberg Blocks created by Robert DeVore.
  * Author: deviodigital
  * Author URI: http://www.robertdevore.com
