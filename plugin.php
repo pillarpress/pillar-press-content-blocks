@@ -5,7 +5,7 @@
  * Description: Custom Gutenberg Blocks created by Robert DeVore.
  * Author: deviodigital
  * Author URI: http://www.robertdevore.com
- * Version: 1.0.0
+ * Version: 1.0.1
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
