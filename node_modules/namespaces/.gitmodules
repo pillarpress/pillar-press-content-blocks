@@ -1,0 +1,3 @@
+[submodule "dep/m1test"]
+	path = dep/m1test
+	url = git://github.com/mikebannister/m1test.git
