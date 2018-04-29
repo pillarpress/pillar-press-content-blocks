@@ -13,9 +13,9 @@ The cornerstone of content creation with Gutenberg.
 
 == Description ==
 
-The Content Blocks plugin from Pillar Press provides you with custom blocks for the new [Gutenberg](#?utm_source=WP.org%20Description%20Gberg%20Link&utm_campaign=wporg_gberg_link) block editor. Blocks are chunks of content such as paragraphs, images, galleries, columns, and more.
+The Content Blocks plugin from [Pillar Press](http://pillar.press) provides you with custom blocks for the new [Gutenberg](#?utm_source=WP.org%20Description%20Gberg%20Link&utm_campaign=wporg_gberg_link) block editor.
 
-Content Blocks is under active development and is used on production sites at your own risk. Because the new editor is still in production, breaking changes could be expected.
+**Please Note**: Content Blocks is under active development and is used on production sites at your own risk. Because the new editor is still in production, breaking changes could be expected.
 
 ## Contribute
 
