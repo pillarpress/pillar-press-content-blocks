@@ -4,7 +4,7 @@ Donate link: http://pillar.press
 Tags: gutenberg, blocks, page builder, content blocks, gutenberg blocks, wordpress 5.0, editor
 Requires at least: 4.7
 Tested up to: 4.9.5
-Stable tag: 1.0.0
+Stable tag: 0.0.1
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
