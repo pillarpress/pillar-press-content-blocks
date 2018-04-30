@@ -6,3 +6,4 @@
 # Current blocks
 
 - Spacer
+- Notifications
