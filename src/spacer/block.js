@@ -6,6 +6,9 @@
 import './editor.scss';
 import './style.scss';
 
+// Import Icon.
+import icon from './icons/icon';
+
 // External Dependencies.
 import classnames from 'classnames';
 import ResizableBox from 're-resizable';
@@ -36,7 +39,7 @@ const {
 registerBlockType( 'pillar-press/spacer', {
 	title: __( 'Spacer' ),
 	description: __( 'Add space between blocks.' ),
-	icon: 'image-flip-vertical',
+	icon: icon,
 	category: 'layout',
 	keywords: [
 		__( 'spacer' ),
