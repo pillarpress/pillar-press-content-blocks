@@ -1,1 +1,56 @@
-.wp-block-pillar-press-spacer{background:none;border:0;margin:0 0 1.2em;padding:0}
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-pillar-press-spacer {
+  background: none;
+  border: 0;
+  margin: 0 0 1.2em;
+  padding: 0; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.pillar_press_notify_info,
+.pillar_press_notify_success,
+.pillar_press_notify_warning,
+.pillar_press_notify_error {
+  margin: 10px 0px;
+  padding: 15px; }
+
+.pillar_press_notify_info {
+  color: #0e7fad;
+  background-color: #c0e9fa;
+  border: 1px solid #0e7fad; }
+
+.pillar_press_notify_success {
+  color: #4f8746;
+  background-color: #d4ffcd;
+  border: 1px solid #4f8746; }
+
+.pillar_press_notify_warning {
+  color: #9d9c49;
+  background-color: #fdfdcb;
+  border: 1px solid #9d9c49; }
+
+.pillar_press_notify_error {
+  color: #641f4a;
+  background-color: #ffd2d4;
+  border: 1px solid #641f4a; }
+
+.pillar_press_notify_text {
+  margin: 0 auto !important; }

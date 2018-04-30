@@ -10,3 +10,4 @@
  */
 
 import './spacer/block.js';
+import './notification-box/block.js'
