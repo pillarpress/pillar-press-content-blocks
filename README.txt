@@ -66,5 +66,5 @@ Yes, until Gutenberg is merged into core, you will need to install the [Gutenber
 
 == Changelog ==
 
-= 1.0 =
+= 0.0.1 =
 * Initial release.
