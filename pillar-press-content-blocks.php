@@ -3,7 +3,7 @@
  * Plugin Name: Pillar Press - Content Blocks
  * Plugin URI: https://pillar.press/
  * Description: The cornerstone of content creation for WordPress. Created by <a href="https://www.twitter.com/deviorobert" target="_blank">Robert DeVore</a>.
- * Author: deviodigital, pillarpress
+ * Author: Pillar Press
  * Author URI: http://pillar.press
  * Version: 0.0.1
  * License: GPL2+
