@@ -13,7 +13,7 @@ The cornerstone of content creation with Gutenberg.
 
 == Description ==
 
-The Content Blocks plugin from [Pillar Press](http://pillar.press) provides you with custom blocks for the new [Gutenberg](#?utm_source=WP.org%20Description%20Gberg%20Link&utm_campaign=wporg_gberg_link) block editor.
+The Content Blocks plugin from [Pillar Press](http://pillar.press) provides you with custom blocks for the new [Gutenberg](https://wordpress.org/gutenberg/) block editor.
 
 **Please Note**: Content Blocks is under active development and is used on production sites at your own risk. Because the new editor is still in production, breaking changes could be expected.
 
@@ -28,7 +28,7 @@ Follow along with the block building and [contribute](https://github.com/pillarp
 
 ### Follow along:
 
-* [Website](http://pillar.press/?utm_source=WP.org%20AB%20Page&utm_campaign=wporg_ab_page)
+* [Website](http://pillar.press/?utm_source=WP.org%20CB%20Page&utm_campaign=wporg_ppcb_follow)
 * [Twitter](https://twitter.com/pillarpress)
 * [Github](https://github.com/pillarpress/pillar-blocks)
 * [Robert DeVore](https://twitter.com/deviorobert)
