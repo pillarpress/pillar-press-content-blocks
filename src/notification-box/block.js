@@ -56,18 +56,18 @@ registerBlockType( 'pillar-press/notification-box', {
 		__( 'notification' ),
 		__( 'pillar' ),
 	],
-    attributes: {
-        pillar_press_notify_info: {
-            type: 'array',
-            source: 'children',
-            selector: '.pillar_press_notify_text',
-            default: 'Replace this notification text with your own.'
-        },
+  attributes: {
+    pillar_press_notify_info: {
+        type: 'array',
+        source: 'children',
+        selector: '.pillar_press_notify_text',
+        default: 'Replace this notification text with your own.'
+    },
 		pillar_press_selected_notify: {
-      	type: 'string',
+	    	type: 'string',
 				default: 'pillar_press_notify_info'
 		}
-    },
+  },
 
 	/**
 	 * The edit function describes the structure of your block in the context of the editor.
@@ -78,103 +78,103 @@ registerBlockType( 'pillar-press/notification-box', {
 	 * @link https://wordpress.org/gutenberg/handbook/block-api/block-edit-save/
 	 */
 	edit: withState( { editable: 'content', } ) ( function( props )
-        {
-            const {
-                isSelected,
-                editable,
-                setState
-            } = props;
+    {
+      const {
+          isSelected,
+          editable,
+          setState
+      } = props;
 
-            const onSetActiveEditable = ( newEditable ) => () => {
-                setState( { editable: newEditable } )
-            };
+      const onSetActiveEditable = ( newEditable ) => () => {
+          setState( { editable: newEditable } )
+      };
 
-            const onChangeNotifyInfo = value => {
-                props.setAttributes ( { pillar_press_notify_info: value } );
-            };
+      const onChangeNotifyInfo = value => {
+          props.setAttributes ( { pillar_press_notify_info: value } );
+      };
 
-            const infoClassChange = value => {
-                props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_info' } );
-            };
+      const infoClassChange = value => {
+          props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_info' } );
+      };
 
-            const successClassChange = value => {
-                props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_success' } );
-            };
+      const successClassChange = value => {
+          props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_success' } );
+      };
 
-						const warningClassChange = value => {
-                props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_warning' } );
-            };
+			const warningClassChange = value => {
+          props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_warning' } );
+      };
 
-						const errorClassChange = value => {
-                props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_error' } );
-            };
+			const errorClassChange = value => {
+          props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_error' } );
+      };
 
-            return [
+      return [
 
-              isSelected && (
-                  <BlockControls key="controls"/>
-              ),
+        isSelected && (
+            <BlockControls key="controls"/>
+        ),
 
-              isSelected && (
-                <BlockControls key="custom-controls">
+        isSelected && (
+          <BlockControls key="custom-controls">
 
-                    <Toolbar className="components-toolbar">
-                        <Button
-                            className={ classnames(
-                                'components-icon-button',
-                                'components-toolbar-control',
-                            )}
-                            onClick = { infoClassChange }
-                        >
-                            { info }
-                        </Button>
-                        <Button
-                            className={ classnames(
-                                'components-icon-button',
-                                'components-toolbar-control',
-                            )}
-                            onClick = { successClassChange }
-                        >
-                            { success }
-                        </Button>
-												<Button
-                            className={ classnames(
-                                'components-icon-button',
-                                'components-toolbar-control',
-                            )}
-                            onClick = { warningClassChange }
-                        >
-                            { warning }
-                        </Button>
-												<Button
-                            className={ classnames(
-                                'components-icon-button',
-                                'components-toolbar-control',
-                            )}
-                            onClick = { errorClassChange }
-                        >
-                            { error }
-                        </Button>
-                    </Toolbar>
+              <Toolbar className="components-toolbar">
+                  <Button
+                      className={ classnames(
+                          'components-icon-button',
+                          'components-toolbar-control',
+                      )}
+                      onClick = { infoClassChange }
+                  >
+                      { info }
+                  </Button>
+                  <Button
+                      className={ classnames(
+                          'components-icon-button',
+                          'components-toolbar-control',
+                      )}
+                      onClick = { successClassChange }
+                  >
+                      { success }
+                  </Button>
+									<Button
+                      className={ classnames(
+                          'components-icon-button',
+                          'components-toolbar-control',
+                      )}
+                      onClick = { warningClassChange }
+                  >
+                      { warning }
+                  </Button>
+									<Button
+                      className={ classnames(
+                          'components-icon-button',
+                          'components-toolbar-control',
+                      )}
+                      onClick = { errorClassChange }
+                  >
+                      { error }
+                  </Button>
+              </Toolbar>
 
-                </BlockControls>
-              ),
+          </BlockControls>
+        ),
 
-						<div key={ 'editable' } className={ props.className }>
+			<div key={ 'editable' } className={ props.className }>
 
-		              <RichText
-		                  tagName="div"
-		                  className={ props.attributes.pillar_press_selected_notify }
-		                  onChange={ onChangeNotifyInfo }
-		                  value={ props.attributes.pillar_press_notify_info }
-		                  isSelected={ isSelected && editable === 'notify_info' }
-		                  onFocus={ onSetActiveEditable( 'notify_info' ) }
-		                  keepPlaceholderOnFocus={true}
-		              />
+            <RichText
+                tagName="div"
+                className={ props.attributes.pillar_press_selected_notify }
+                onChange={ onChangeNotifyInfo }
+                value={ props.attributes.pillar_press_notify_info }
+                isSelected={ isSelected && editable === 'notify_info' }
+                onFocus={ onSetActiveEditable( 'notify_info' ) }
+                keepPlaceholderOnFocus={true}
+            />
 
-		          </div>
-            ];
-        },
+        </div>
+      ];
+    },
 	),
 
 	/**
