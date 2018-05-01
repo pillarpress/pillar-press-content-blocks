@@ -5,21 +5,23 @@
  * Simple block, renders and saves the same content without any interactivity.
  */
 
-//Import Icons
+// Import Icons.
 import icon from './icons/icon';
 import info from './icons/info';
 import success from './icons/success';
 import warning from './icons/warning';
 import error from './icons/error';
 
-//Importing Classname
+// Importing Classname.
 import classnames from 'classnames';
 
-//  Import CSS.
+// Import CSS.
 import './style.scss';
 import './editor.scss';
 
-const { __ } = wp.i18n; // Import __() from wp.i18n
+// Import __() from wp.i18n.
+const { __ } = wp.i18n;
+
 const {
 	registerBlockType,
 	RichText,
@@ -37,10 +39,6 @@ const {
 
 /**
  * Register: aa Gutenberg Block.
- *
- * Registers a new block provided a unique name and an object defining its
- * behavior. Once registered, the block is made editor as an option to any
- * editor interface where blocks are implemented.
  *
  * @link https://wordpress.org/gutenberg/handbook/block-api/
  * @param  {string}   name     Block name.
