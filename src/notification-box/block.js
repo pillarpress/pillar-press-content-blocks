@@ -47,13 +47,13 @@ const {
  *                             registered; otherwise `undefined`.
  */
 registerBlockType( 'pillar-press/notification-box', {
-	title: __( 'Notifications' ),
-	description: __( 'Add various notification boxes.' ),
+	title: __( 'Notices' ),
+	description: __( 'Add customizable notification boxes.' ),
 	icon: icon,
 	category: 'formatting',
 	keywords: [
+		__( 'notices' ),
 		__( 'notification' ),
-		__( 'warning' ),
 		__( 'pillar' ),
 	],
     attributes: {
