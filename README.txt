@@ -24,7 +24,7 @@ Follow along with the block building and [contribute](https://github.com/pillarp
 ## Content Blocks currently includes the following blocks:
 
 * Spacer Block
-* Notifications Block
+* Notices Block
 
 ### Follow along:
 
