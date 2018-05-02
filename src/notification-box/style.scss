@@ -8,10 +8,11 @@
 .pillar_press_notify_success,
 .pillar_press_notify_warning,
 .pillar_press_notify_error {
+  font-weight: bold;
   margin: 10px 0px;
   padding: 15px;
-
 }
+
 .pillar_press_notify_info {
   color: $white;
   background-color: #56A8C7;
