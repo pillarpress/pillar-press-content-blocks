@@ -4,6 +4,7 @@
  * CSS for both Frontend+Backend.
  */
 
+.pillar_press_notify_general,
 .pillar_press_notify_info,
 .pillar_press_notify_success,
 .pillar_press_notify_warning,
@@ -11,6 +12,12 @@
   font-weight: bold;
   margin: 10px 0px;
   padding: 15px;
+}
+
+.pillar_press_notify_general {
+  color: $white;
+  background-color: #afafaf;
+  border: 1px solid #888;
 }
 
 .pillar_press_notify_info {

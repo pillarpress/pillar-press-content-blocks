@@ -7,6 +7,7 @@
 
 // Import Icons.
 import icon from './icons/icon';
+import general from './icons/general';
 import info from './icons/info';
 import success from './icons/success';
 import warning from './icons/warning';
@@ -93,7 +94,11 @@ registerBlockType( 'pillar-press/notification-box', {
           props.setAttributes ( { pillar_press_notify_info: value } );
       };
 
-      const infoClassChange = value => {
+			const generalClassChange = value => {
+          props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_general' } );
+      };
+
+			const infoClassChange = value => {
           props.setAttributes( { pillar_press_selected_notify: 'pillar_press_notify_info' } );
       };
 
@@ -119,6 +124,15 @@ registerBlockType( 'pillar-press/notification-box', {
           <BlockControls key="custom-controls">
 
               <Toolbar className="components-toolbar">
+									<Button
+											className={ classnames(
+													'components-icon-button',
+													'components-toolbar-control',
+											)}
+											onClick = { generalClassChange }
+									>
+											{ general }
+									</Button>
                   <Button
                       className={ classnames(
                           'components-icon-button',
