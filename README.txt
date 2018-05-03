@@ -4,7 +4,7 @@ Donate link: http://pillar.press
 Tags: gutenberg, blocks, page builder, content blocks, gutenberg blocks, wordpress 5.0, editor
 Requires at least: 4.7
 Tested up to: 4.9.5
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -15,7 +15,9 @@ The cornerstone of content creation with Gutenberg.
 
 The Content Blocks plugin from [Pillar Press](http://pillar.press) provides you with custom blocks for the new [Gutenberg](https://wordpress.org/gutenberg/) block editor.
 
-**Please Note**: Content Blocks is under active development and is used on production sites at your own risk. Because the new editor is still in production, breaking changes could be expected.
+**Please Note**: Content Blocks is under active development and is used on production sites at your own risk.
+
+Because the new editor is still in active production, breaking changes could be expected.
 
 ## Contribute
 
@@ -65,6 +67,10 @@ Yes, until Gutenberg is merged into core, you will need to install the [Gutenber
 1. Sample description
 
 == Changelog ==
+
+= 0.0.2 =
+* NEW: "General" notice box.
+* Updated colors for each of the notices.
 
 = 0.0.1 =
 * Initial release.

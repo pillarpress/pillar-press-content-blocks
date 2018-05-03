@@ -1,6 +1,6 @@
 {
   "name": "pillar-press-content-blocks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "cgb-scripts start",
