@@ -5,5 +5,4 @@
  * Webpack is compiling as the input file.
  */
 
-import './spacer/block.js';
 import './notification-box/block.js'
