@@ -5,4 +5,4 @@
  * Webpack is compiling as the input file.
  */
 
-import './notification-box/block.js'
+import './notices-box/block.js'
