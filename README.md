@@ -5,5 +5,4 @@
 
 # Current blocks
 
-- Spacer
 - Notices
