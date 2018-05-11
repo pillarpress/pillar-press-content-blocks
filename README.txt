@@ -4,7 +4,7 @@ Donate link: http://pillar.press
 Tags: gutenberg, blocks, page builder, content blocks, gutenberg blocks, wordpress 5.0, editor
 Requires at least: 4.7
 Tested up to: 4.9.5
-Stable tag: 0.0.2
+Stable tag: 0.0.3
 Requires PHP: 5.2.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -66,6 +66,9 @@ Yes, until Gutenberg is merged into core, you will need to install the [Gutenber
 1. Sample description
 
 == Changelog ==
+
+= 0.0.3 =
+* Removed "Spacer" block (Gutenberg 2.8+ has a default Spacer block included)
 
 = 0.0.2 =
 * NEW: "General" notice box.
