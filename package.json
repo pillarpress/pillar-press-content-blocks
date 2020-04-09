@@ -1,6 +1,6 @@
 {
   "name": "pillar-press-content-blocks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
     "start": "cgb-scripts start",
@@ -8,7 +8,7 @@
     "eject": "cgb-scripts eject"
   },
   "dependencies": {
-    "cgb-scripts": "1.9.6",
+    "cgb-scripts": "1.23.0",
     "classnames": "^2.2.5",
     "namespaces": "0.0.6",
     "re-resizable": "^4.4.8",
